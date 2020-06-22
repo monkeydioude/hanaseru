@@ -1,0 +1,30 @@
+.flexRow {
+    display: flex;
+}
+
+$NavBarWidth: 10%;
+$HeaderHeight: 30px;
+.Layout {
+    .Header {
+        height: $HeaderHeight;
+        width: 100%;
+        position: fixed;
+        z-index: 2;
+    }
+
+    .NavBar {
+        padding: 5px, 0;
+        width: $NavBarWidth;
+        height: 100%;
+        position: fixed;
+        top: $HeaderHeight;
+    }
+
+    .Content {
+        width: 100% - $NavBarWidth;
+        position: relative;
+        left: $NavBarWidth;
+        top: $HeaderHeight;
+        z-index: 1;
+    }
+}

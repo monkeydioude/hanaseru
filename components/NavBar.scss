@@ -1,0 +1,14 @@
+@import '../pages/colors';
+
+.NavBar {
+    background-color: $secondaryColor;
+    color: $primaryFontColor;
+
+    a {
+        color: $primaryFontColor
+    }
+
+    ul {
+        width: 80%;
+    }
+}
