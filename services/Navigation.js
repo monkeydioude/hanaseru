@@ -4,7 +4,7 @@ function NavLink(label, shortPath) {
 }
 
 const GetCompleteNavigation = () => {
-    return [new NavLink("Hiragemu", "/hiragemu")]
+    return [new NavLink("Kanagemu", "/kanagemu")]
 }
 
 export {
