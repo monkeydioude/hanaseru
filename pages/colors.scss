@@ -1,3 +1,5 @@
+@import 'open-color/open-color';
+
 /*
 
   COLORS
@@ -45,11 +47,9 @@
 .bg-azukiiro { background-color: #672422; }
 .bg-choushuniro { background-color: #B95754;}
 
-$primaryColor: #672422;
-$secondaryColor: #B95754;
-$primaryFontColor: #EEEEEE;
-
-
+$primaryColor: $oc-gray-9;
+$secondaryColor: $oc-red-7;
+$primaryFontColor: $oc-gray-3;
 
 /* Colors */
 .navy { color: #001F3F; }

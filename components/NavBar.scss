@@ -1,8 +1,14 @@
 @import '../pages/colors';
 
+$NavBarHeight: 50px;
+
 .NavBar {
     background-color: $secondaryColor;
     color: $primaryFontColor;
+    padding: 5px, 0;
+    width: 100%;
+    height: $NavBarHeight;
+    position: fixed;
 
     a {
         color: $primaryFontColor
