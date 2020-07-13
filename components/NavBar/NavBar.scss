@@ -1,0 +1,26 @@
+@import '../../pages/colors';
+
+$NavBarHeight: 50px;
+
+.NavContainer {
+    .NavBar {
+        background-color: $secondaryColor;
+        color: $primaryFontColor;
+        padding: 5px 0;
+        width: 100%;
+        height: $NavBarHeight;
+        position: fixed;
+    
+        a {
+            color: $primaryFontColor
+        }
+    
+        ul {
+            width: 80%;
+        }
+    }
+    
+    .deck {
+        height:$NavBarHeight;
+    }
+}
