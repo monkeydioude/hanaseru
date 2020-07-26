@@ -1,5 +1,7 @@
-const withSass = require("@zeit/next-sass");
-module.exports = withSass({
+const withSass = require("@zeit/next-sass")
+const withCSS = require('@zeit/next-css')
+
+module.exports = withCSS(withSass({
     webpack (config, options) {
         config.module.rules.push({
             test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
@@ -9,8 +11,8 @@ module.exports = withSass({
                     limit: 100000
                 }
             }
-        });
+        })
  
-        return config;
+        return config
     }
- });
+ }))

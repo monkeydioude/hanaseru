@@ -1,5 +1,5 @@
-import NavBar from "./NavBar/NavBar"
-import Content from "./Content"
+import NavBar from "../NavBar/NavBar"
+import Content from "../Content/Content"
 import "gridlex/src/gridlex.scss"
 import "./Layout.scss"
 

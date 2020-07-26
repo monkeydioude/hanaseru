@@ -4,7 +4,7 @@ function NavLink(label, shortPath) {
 }
 
 const GetCompleteNavigation = () => {
-    return [new NavLink("Kanagemu", "/kanagemu")]
+    return [new NavLink("Kana", "/kana")]
 }
 
 export {

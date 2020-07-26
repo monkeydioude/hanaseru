@@ -2,7 +2,7 @@ import './colors.scss'
 import './app.scss'
 import LangContext from '../services/LangContext'
 import React from 'react'
-import Layout from '../components/Layout'
+import Layout from '../components/Layout/Layout'
 
 const value = {lang: 1}
 
